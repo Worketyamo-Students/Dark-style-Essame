@@ -22,14 +22,14 @@
   <body class="font-['Poppins'] bg-primary">
     <!-- header -->
     <header
-      class="w-full pt-[25px] px-[22px] flex justify-between items-center"
+      class="w-full pt-[25px] lg:pt-[46px] px-[22px] flex justify-between items-center lg:px-[120px]"
     >
       <div class="flex items-center gap-3">
         <img src="./assets/img/logo.svg" alt="logo" class="size-12" />
         <h1 class="text-white font-bold text-2xl">Znisa</h1>
       </div>
       <div
-        class="flex justify-center items-center bg-gradient-to-r from-third to-secondary h-[37.14px] w-[47.14px] rounded-full"
+        class="lg:hidden flex justify-center items-center bg-gradient-to-r from-third to-secondary h-[37.14px] w-[47.14px] rounded-full"
       >
         <div
           class="flex justify-center items-center h-[33.14px] w-[43.14px] bg-primary rounded-full"
@@ -43,6 +43,44 @@
               class="size-8"
             />
           </div>
+        </div>
+      </div>
+      <div
+        class="hidden lg:flex flex h-[48px] w-[518px] items-center justify-center rounded-3xl bg-gradient-to-r from-third to-secondary"
+      >
+        <div
+          class="text-white flex justify-between px-3 items-center w-99/100 h-11 bg-primary rounded-3xl"
+        >
+          <div
+            class="rounded-xl bg-[rgb(41,41,41)] h-7 w-8 flex justify-center items-center"
+          >
+            <img src="./assets/img/home.svg" alt="" />
+          </div>
+          <div class="">
+            <h1>About</h1>
+          </div>
+          <div class="">
+            <h1>Projects</h1>
+          </div>
+          <div class="">
+            <h1>Contact me</h1>
+          </div>
+        </div>
+      </div>
+      <div class="w-32 justify-center items-center hidden lg:flex">
+        <div
+          class="flex justify-center items-center h-[35.19px] w-[70.84px] bg-gradient-to-r from-third to-secondary rounded-full"
+        >
+          <button
+            class="h-[42.19px] w-[78.84px] bg-gradient-to-r from-secondary to-third rounded-full to-80% text-black text-sm"
+          >
+            Hire me
+          </button>
+        </div>
+        <div
+          class="size-10 bg-linear-to-r from-secondary to-third to-80% flex rounded-full justify-center items-center"
+        >
+          <img src="./assets/img/User Rounded.svg" alt="" />
         </div>
       </div>
     </header>
