@@ -192,35 +192,41 @@
         <!--  -->
       </section>
       <div
-        class="w-full flex pt-5 justify-around px-2 border-b-1 border-[rgba(255,255,255,_0.4)] pb-5"
+        class="w-full flex pt-5 justify-around px-2 border-b-1 lg:border-t-1 border-[rgba(255,255,255,_0.4)] pb-5 lg:justify-center lg:gap-40"
       >
-        <div
-          class="flex gap-3 flex-row-reverse it:meat_on_bone::earth_asia:ms-center"
-        >
+        <div class="flex gap-3 flex-row-reverse lg:gap-15">
           <img src="./assets/img/22.svg" alt=" start logo" />
           <h1 class="text-white text-base">Framer</h1>
         </div>
-        <div class="flex gap-3 flex-row-reverse itms-center">
+        <div class="flex gap-3 flex-row-reverse itms-center lg:gap-15">
           <img src="./assets/img/22.svg" alt=" start logo" />
           <h1 class="text-white text-base">Webflow</h1>
         </div>
-        <div class="flex gap-3 flex-row-reverse itms-center">
+        <div class="flex gap-3 flex-row-reverse itms-center lg:gap-15">
           <img src="./assets/img/22.svg" alt=" start logo" />
           <h1 class="text-white text-base">Figma</h1>
         </div>
+        <div
+          class="hidden lg:flex gap-3 flex-row-reverse itms-center lg:gap-15"
+        >
+          <img src="./assets/img/22.svg" alt=" start logo" />
+          <h1 class="text-white text-base">Notion</h1>
+        </div>
       </div>
       <!-- design process -->
-      <section class="px-[26px] pt-10">
-        <div class="flex gap-2 items-center">
-          <h1 class="text-xl text-white">itms-centeritms-center</h1>
-          <div class="bg-white w-[40.3px] h-[22.3px] grid grid-cols-2">
+      <section class="px-[26px] pt-10 lg:px-45 border-0">
+        <div class="flex gap-2 items-center lg:gap-5">
+          <h1 class="text-xl text-white lg:text-2xl">itms-centeritms-center</h1>
+          <div
+            class="bg-white w-[40.3px] h-[22.3px] grid grid-cols-2 lg:w-[50.3px] lg:h-[32.3px]"
+          >
             <div class="w-full h-full bg-primary rounded-br-2xl"></div>
             <div class="w-full h-full bg-primary rounded-bl-2xl"></div>
             <div class="w-full h-full bg-primary rounded-tr-2xl"></div>
             <div class="w-full h-full bg-primary rounded-tl-2xl"></div>
           </div>
           <div
-            class="bg-white w-[15.3px] h-[15.3px] grid grid-cols-2 -translate-y-2 -translate-x-6"
+            class="bg-white w-[15.3px] h-[15.3px] lg:w-[20.3px] lg:h-[20.3px] grid grid-cols-2 -translate-y-2 -translate-x-6 lg:-translate-x-7 lg:-translate-y-3"
           >
             <div class="w-full h-full bg-primary rounded-br-2xl"></div>
             <div class="w-full h-full bg-primary rounded-bl-2xl"></div>
@@ -230,7 +236,7 @@
         </div>
       </section>
       <!-- time line  -->
-      <section class="flex w-full gap-3 px-10 py-10 text-white">
+      <section class="flex w-full gap-3 px-10 py-10 text-white lg:px-45">
         <div class="flex flex-col items-center">
           <div
             class="size-8 rounded-full bg-third flex justify-center items-center"
@@ -266,31 +272,35 @@
             </div>
           </div>
           <div
-            class="h-[40px] w-0 bg-primary border-1 border-[rgba(255,255,255,_0.4)] my-3"
+            class="h-[40px] w-0 bg-primary border-1 border-[rgba(255,255,255,_0.4)] my-3 lg:hidden"
           ></div>
         </div>
         <div class="flex-2 px-3 grid grid-rows-3">
           <div class="">
             <img src="./assets/img/Ellipse 17.svg" alt="" />
-            <h1 class="mt-3 text-sm">Step 1: Product design Research</h1>
-            <p class="my-3 text-xs">
+            <h1 class="mt-3 text-sm lg:text-2xl">
+              Step 1: Product design Research
+            </h1>
+            <p class="my-3 text-xs lg:text-base">
               This initial step involves a systematic and thorough exploration
               of the market landscape, user needs, and existing solutions.
             </p>
             <div class="my-3"><button>See Examples</button></div>
           </div>
-          <div class="pt-7">
+          <div class="pt-7 lg:pt-6">
             <img src="./assets/img/Ellipse 17.svg" alt="" class="rotate-90" />
-            <h1 class="mt-3 text-sm">Step 2: UI design in figma</h1>
-            <p class="my-3 text-xs">
+            <h1 class="mt-3 text-sm lg:text-2xl">Step 2: UI design in figma</h1>
+            <p class="my-3 text-xs lg:text-base">
               This initial step involves a systematic and thorough exploration
               of the market landscape, user needs, and existing solutions.
             </p>
           </div>
           <div class="pt-1">
             <img src="./assets/img/Ellipse 17.svg" alt="" class="rotate-200" />
-            <h1 class="mt-3 text-sm">Step 1: No-code develop in webflow</h1>
-            <p class="mt-3 text-xs">
+            <h1 class="mt-3 text-sm lg:text-2xl">
+              Step 1: No-code develop in webflow
+            </h1>
+            <p class="mt-3 text-xs lg:text-base">
               This initial step involves a systematic and thorough exploration
               of the market landscape, user needs, and existing solutions.
             </p>
@@ -298,17 +308,19 @@
         </div>
       </section>
       <!--  -->
-      <section>
+      <section class="lg:px-[145px]">
         <div class="flex gap-2 items-center px-[26px]">
-          <h1 class="text-xl text-white">Some featured projects</h1>
-          <div class="bg-white w-[40.3px] h-[22.3px] grid grid-cols-2">
+          <h1 class="text-xl text-white lg:text-2xl">Some featured projects</h1>
+          <div
+            class="bg-white w-[40.3px] h-[22.3px] grid grid-cols-2 lg:w-[50.3px] lg:h-[32.3px]"
+          >
             <div class="w-full h-full bg-primary rounded-br-2xl"></div>
             <div class="w-full h-full bg-primary rounded-bl-2xl"></div>
             <div class="w-full h-full bg-primary rounded-tr-2xl"></div>
             <div class="w-full h-full bg-primary rounded-tl-2xl"></div>
           </div>
           <div
-            class="bg-white w-[15.3px] h-[15.3px] grid grid-cols-2 -translate-y-2 -translate-x-6"
+            class="bg-white w-[15.3px] h-[15.3px] grid grid-cols-2 -translate-y-2 -translate-x-6 lg:w-[20.3px] lg:h-[20.3px] lg:-translate-x-7 lg:-translate-y-3"
           >
             <div class="w-full h-full bg-primary rounded-br-2xl"></div>
             <div class="w-full h-full bg-primary rounded-bl-2xl"></div>
@@ -317,44 +329,68 @@
           </div>
         </div>
 
-        <div class="pt-10 bg-[rgb(25,25,25)] m-5">
-          <div class="w-full bg-linear-to-r from-secondary to-third h-70"></div>
+        <div
+          class="pt-10 bg-[rgb(25,25,25)] m-5 lg:flex lg:px-20 lg:pb-5 gap-5 lg:gap-15"
+        >
           <div
-            class="size-10 mt-5 rounded-full bg-third flex justify-center items-center bg-third"
-          >
+            class="w-full bg-linear-to-r from-secondary to-third h-70 lg:h-100 lg:w-50/100"
+          ></div>
+          <div class="lg:flex flex-col justify-center">
             <div
-              class="size-8 text-white p-5 rounded-full bg-primary flex justify-center items-center text-base"
+              class="size-10 mt-5 lg:size-15 rounded-full bg-third flex justify-center items-center bg-third"
             >
-              1
+              <div
+                class="size-8 lg:size-14.5 text-white p-5 rounded-full bg-primary flex justify-center items-center text-base"
+              >
+                1
+              </div>
+            </div>
+            <div class="py-5 text-white text-2xl lg:text-2xl">
+              Setane Essame
             </div>
           </div>
-          <div class="py-5 text-white text-2xl">Setane Essame</div>
         </div>
-        <div class="pt-10 bg-[rgb(25,25,25)] m-5">
-          <div class="w-full bg-linear-to-r from-secondary to-third h-70"></div>
+        <div
+          class="pt-10 bg-[rgb(25,25,25)] m-5 lg:flex lg:px-20 lg:pb-5 gap-5 lg:gap-15"
+        >
           <div
-            class="size-10 mt-5 rounded-full bg-third flex justify-center items-center bg-third"
-          >
+            class="w-full bg-linear-to-r from-secondary to-third h-70 lg:h-100 lg:w-50/100"
+          ></div>
+          <div class="lg:flex flex-col justify-center">
             <div
-              class="size-8 text-white p-5 rounded-full bg-primary flex justify-center items-center text-base"
+              class="size-10 mt-5 lg:size-15 rounded-full bg-third flex justify-center items-center bg-third"
             >
-              2
+              <div
+                class="size-8 lg:size-14.5 text-white p-5 rounded-full bg-primary flex justify-center items-center text-base"
+              >
+                2
+              </div>
+            </div>
+            <div class="py-5 text-white text-2xl lg:text-2xl">
+              Setane Essame
             </div>
           </div>
-          <div class="py-5 text-white text-2xl">Setane Essame</div>
         </div>
-        <div class="pt-10 bg-[rgb(25,25,25)] m-5">
-          <div class="w-full bg-linear-to-r from-secondary to-third h-70"></div>
+        <div
+          class="pt-10 bg-[rgb(25,25,25)] m-5 lg:flex lg:px-20 lg:pb-5 gap-5 lg:gap-15"
+        >
           <div
-            class="size-10 mt-5 rounded-full bg-third flex justify-center items-center bg-third"
-          >
+            class="w-full bg-linear-to-r from-secondary to-third h-70 lg:h-100 lg:w-50/100"
+          ></div>
+          <div class="lg:flex flex-col justify-center">
             <div
-              class="size-8 text-white p-5 rounded-full bg-primary flex justify-center items-center text-base"
+              class="size-10 mt-5 lg:size-15 rounded-full bg-third flex justify-center items-center bg-third"
             >
-              3
+              <div
+                class="size-8 lg:size-14.5 text-white p-5 rounded-full bg-primary flex justify-center items-center text-base"
+              >
+                3
+              </div>
+            </div>
+            <div class="py-5 text-white text-2xl lg:text-2xl">
+              Setane Essame
             </div>
           </div>
-          <div class="py-5 text-white text-2xl">Setane Essame</div>
         </div>
       </section>
       <!-- testi monies -->
